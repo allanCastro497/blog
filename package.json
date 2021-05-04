@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Este é um projeto de um blog, buscando imitar o desenvolvimento de um blog real, buscando zelar pelo design, performance e SEO. Esse será um projeto para incluir no meu portfólio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "blog",
+    "otimizado",
+    "projeto",
+    "para",
+    "portfolio"
+  ],
+  "author": "Kennedy Allan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}

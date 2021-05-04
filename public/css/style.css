@@ -1,0 +1,113 @@
+article {
+    text-align: justify;
+    margin: 45px 5px;
+}
+.thumbnail-card {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.img-full {
+    width: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 25px;
+}
+.category-diversos{
+    background-color: #6c757d;
+    color: #fff;
+    min-width: 73px;
+    padding: 2px 10px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+.author {
+    font-size: 14px;
+}
+.title-post {
+    font-size: 24px;
+    font-weight: 700;
+}
+.figure-author {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+.bg-category-diversos {
+    background-image: url('../img/bg-category-example.jpg');
+    min-height: 500px;
+}
+.darken {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.title-post-page {
+    font-size: 45px;
+}
+.aside-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aside-post  img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+.full-width {
+    width: 100%;
+}
+@media(max-width: 425px) {
+    article {
+        width: 100%;
+    }
+    .aside-post {
+        width: 100%;
+    }
+    .aside-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .aside-content p {
+        text-align: center;
+    }
+}
+@media(min-width: 1024px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #000 !important;
+    }
+    section {
+        width: 100%;
+    }
+    article {
+        width: 65%;
+        float: left;
+    }
+    .aside-post {
+        width: 34%;
+        margin-left: 10px;;
+    }
+    .aside-post img {
+        margin: 45px 5px;
+    }
+    .aside-content {
+        width: 100%;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .aside-content p {
+        text-align: center;
+        padding: 0 10px;
+    }
+}
