@@ -18,6 +18,10 @@ app.get('/diversos/post', (req, res) => {
     let title = 'Post Example | Página Inicial'
     res.render('post.ejs', {title: title})
 })
+app.get('/login', (req, res) => {
+    let title = 'Login | Painel Administrativo'
+    res.render('admin/login.ejs', {title: title})
+})
 
 
 app.listen(80, () => {
