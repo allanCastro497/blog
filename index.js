@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const Admin = require('./admin/AdminController')
 
 // Setando as configurações do body parser
 app.use(bodyParser.urlencoded({extended:false}))
@@ -18,10 +19,8 @@ app.get('/diversos/post', (req, res) => {
     let title = 'Post Example | Página Inicial'
     res.render('post.ejs', {title: title})
 })
-app.get('/login', (req, res) => {
-    let title = 'Login | Painel Administrativo'
-    res.render('admin/login.ejs', {title: title})
-})
+
+app.use('/', Admin)
 
 
 app.listen(80, () => {
